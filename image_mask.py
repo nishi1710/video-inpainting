@@ -6,7 +6,7 @@ from ultralytics import YOLO
 model = YOLO("yolov8n-seg.pt")
 
 # Class IDs for vehicles in the COCO dataset
-vehicle_class_ids = [2, 3, 5, 7]  # Car, motorcycle, bus, truck
+vehicle_class_ids = [2, 3, 5, 7]  # Car, motorcycle, bus, truck 
 
 # Predict with the model on the image
 image_path = 'bus.jpg'
