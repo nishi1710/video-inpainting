@@ -32,7 +32,7 @@ def frames_to_video(input_folder, output_video_path, frame_rate=5):
 
 # Define the input folder and output video path
 input_folder = 'result'
-output_video_path = 'output_video.mp4'
+output_video_path = 'output_video1.mp4'
 
 # Combine frames into a video
 frames_to_video(input_folder, output_video_path)
